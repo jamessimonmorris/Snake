@@ -103,8 +103,8 @@ void PsyjsmorEngine::DrawStringsUnderneath()
 {
 	char buf[64];
 	sprintf(buf, "%d", points);
-	DrawBackgroundString(40, 10, "Points:", 0xFFFFFF, NULL);
-	DrawForegroundString(140, 10, buf, 0xFFFFFF, NULL);
+	DrawBackgroundString(50, 10, "Points:", 0xFFFFFF, NULL);
+	DrawForegroundString(150, 10, buf, 0xFFFFFF, NULL);
 }
 
 void PsyjsmorEngine::DrawStringsOnTop()
